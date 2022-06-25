@@ -110,7 +110,7 @@ class MainMenuState extends MusicBeatState
 		skid.visible = false;
 		add(skid);
 		
-		gfbf = new FlxSprite(300, -50).loadGraphic(Paths.image('menuicons/freeplay'));
+		gfbf = new FlxSprite(-50, -50).loadGraphic(Paths.image('menuicons/freeplay'));
 	    gfbf.frames = Paths.getSparrowAtlas('menuicons/freeplay');
 	    gfbf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    gfbf.animation.play('idleB');
@@ -119,7 +119,7 @@ class MainMenuState extends MusicBeatState
 		gfbf.visible = false;
 		add(gfbf);
 		
-		bf = new FlxSprite(320, 50).loadGraphic(Paths.image('menuicons/options'));
+		bf = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/options'));
 	    bf.frames = Paths.getSparrowAtlas('menuicons/options');
 	    bf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    bf.animation.play('idleB');
@@ -128,13 +128,13 @@ class MainMenuState extends MusicBeatState
 		bf.visible = false;
 		add(bf);
 		
-		awards = new FlxSprite(250, 50).loadGraphic(Paths.image('menuicons/awards'));
+		awards = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/awards'));
 		awards.setGraphicSize(Std.int(awards.width * 0.8));
 		awards.antialiasing = ClientPrefs.globalAntialiasing;
 		awards.visible = false;
 		add(awards);
 		
-		credits = new FlxSprite(250, 50).loadGraphic(Paths.image('menuicons/credits'));
+		credits = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/credits'));
 		credits.setGraphicSize(Std.int(credits.width * 0.8));
 		credits.antialiasing = ClientPrefs.globalAntialiasing;
 		credits.visible = false;
