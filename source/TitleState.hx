@@ -335,7 +335,7 @@ class TitleState extends MusicBeatState
 			add(char);
 
             case 2:
-			char = new FlxSprite(600, 200).loadGraphic(Paths.image('bfDanceTitle'));
+			char = new FlxSprite(600, 350).loadGraphic(Paths.image('bfDanceTitle'));
 			char.frames = Paths.getSparrowAtlas('bfDanceTitle');
 			char.animation.addByPrefix('idleB', 'bfDance0', 24, true);
 			char.animation.play('idleB');
