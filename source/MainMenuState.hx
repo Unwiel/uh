@@ -384,7 +384,7 @@ class MainMenuState extends MusicBeatState
 								}
 							}); 
 
-b                                                       
+                                  
                                                         FlxTween.tween(bf, {x: bf.x - 50}, 0.8, {
                                                                 ease: FlxEase.quadOut,
                                                                 onComplete: function(twn5:FlxTween)
