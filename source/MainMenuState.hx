@@ -369,7 +369,7 @@ class MainMenuState extends MusicBeatState
 
                                                         FlxTween.tween(cosa2, {x: cosa2.x - 50}, 0.8, {
                                                                 ease: FlxEase.quadOut,
-                                                                onComplete: function(twn3:FlxTween)
+                                                                onComplete: function(twn33:FlxTween)
 								{
 									FlxTween.tween(cosa2, {x: cosa2.x - 900}, 0.4, {ease: FlxEase.quadInOut});
 		
@@ -409,6 +409,17 @@ class MainMenuState extends MusicBeatState
 
 								}
 							});
+
+                                                        FlxTween.tween(honton, {x: honton.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn24:FlxTween)
+								{
+									FlxTween.tween(honton, {x: honton.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
 
                                                         
                                                         FlxTween.tween(credits, {x: credits.x - 50}, 0.8, {
