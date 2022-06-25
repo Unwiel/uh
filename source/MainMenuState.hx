@@ -102,7 +102,7 @@ class MainMenuState extends MusicBeatState
 		cosa2.antialiasing = ClientPrefs.globalAntialiasing;
 		add(cosa2);
 		
-		skid = new FlxSprite(100, -50).loadGraphic(Paths.image('menuicons/story'));
+		skid = new FlxSprite(100, 150).loadGraphic(Paths.image('menuicons/story'));
 	    skid.frames = Paths.getSparrowAtlas('menuicons/story');
 	    skid.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    skid.animation.play('idleB');
@@ -141,7 +141,7 @@ class MainMenuState extends MusicBeatState
 		credits.visible = false;
 		add(credits);
 
-                honton = new FlxSprite(-100, 350).loadGraphic(Paths.image('menuicons/donate'));
+                honton = new FlxSprite(150, 350).loadGraphic(Paths.image('menuicons/donate'));
 	    honton.frames = Paths.getSparrowAtlas('menuicons/donate');
 	    honton.animation.addByPrefix('no', 'DONATE0', 24, false);
             honton.animation.addByPrefix('selected', 'DONATE SELECT0', 24, false); 
