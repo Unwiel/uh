@@ -330,7 +330,7 @@ class TitleState extends MusicBeatState
 			char.animation.addByPrefix('idleR', 'gfDance0', 24, true);//on 'idle normal' change it to your xml one
 			char.animation.play('idleR');//you can rename the anim however you want to
 			char.antialiasing = ClientPrefs.globalAntialiasing;
-			char.setGraphicSize(Std.int(char.width * 0.6));
+			char.setGraphicSize(Std.int(char.width * 0.7));
 			add(char);
 
             case 2:
@@ -338,7 +338,7 @@ class TitleState extends MusicBeatState
 			char.frames = Paths.getSparrowAtlas('bfDanceTitle');
 			char.animation.addByPrefix('idleB', 'bfDance0', 24, true);
 			char.animation.play('idleB');
-			char.setGraphicSize(Std.int(char.width * 0.6));
+			char.setGraphicSize(Std.int(char.width * 0.7));
 			char.antialiasing = ClientPrefs.globalAntialiasing;
 			add(char);
               
@@ -347,7 +347,7 @@ class TitleState extends MusicBeatState
 			char.frames = Paths.getSparrowAtlas('spookyDanceTitle');
 			char.animation.addByPrefix('idleS', 'spooky dance idle0', 24, true);
 			char.animation.play('idleS');
-			char.setGraphicSize(Std.int(char.width * 0.6));
+			char.setGraphicSize(Std.int(char.width * 0.7));
 			char.antialiasing = ClientPrefs.globalAntialiasing;
 			add(char);
 		}
