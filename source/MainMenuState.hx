@@ -151,7 +151,7 @@ class MainMenuState extends MusicBeatState
 		for (i in 0...optionShit.length)
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(20, 100 - (i * 120));
+			var menuItem:FlxSprite = new FlxSprite(20 - , 100 - (i * 120));
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
@@ -166,7 +166,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-                var bsid:FlxText = new FlxText(12, FlxG.height - 4, 0, "BSIDES CORRUPTION DEMO v1.3.0", 12);
+        var bsid:FlxText = new FlxText(12, FlxG.height - 04, 0, "BSIDES CORRUPTION DEMO v1.3.0", 12);
 		bsid.scrollFactor.set();
 		bsid.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(bsid);
@@ -396,7 +396,7 @@ class MainMenuState extends MusicBeatState
 				if(menuItems.length > 4) {
 					add = menuItems.length * 8;
 				}
-				camFollow.setPosition(spr.getGraphicMidpoint().x, spr.getGraphicMidpoint().y - add);
+				
 				spr.centerOffsets();
 			}
 		});

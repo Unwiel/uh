@@ -265,8 +265,8 @@ class TitleState extends MusicBeatState
 		//add(bg);
 		
 		
-	        titlebg = new FlxSprite().loadGraphic(Paths.image('titleBG'));
-		titlebg.antialiasing = ClientPrefs.globalAntialiasing;
+	    titlebg = new FlxSprite().loadGraphic(Paths.image('titleBG'));
+		titlebgbg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(titlebg);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
@@ -325,7 +325,7 @@ class TitleState extends MusicBeatState
 		switch (FlxG.random.int(1, 3))
         {
             case 1:
-			char = new FlxSprite(200, 200).loadGraphic(Paths.image('gfDanceTitle'));//put your cords and image here
+			char = new FlxSprite(300, 220).loadGraphic(Paths.image('gfDanceTitle));//put your cords and image here
 			char.frames = Paths.getSparrowAtlas('gfDanceTitle');//here put the name of the xml
 			char.animation.addByPrefix('idleR', 'gfDance0', 24, true);//on 'idle normal' change it to your xml one
 			char.animation.play('idleR');//you can rename the anim however you want to
@@ -334,16 +334,16 @@ class TitleState extends MusicBeatState
 			add(char);
 
             case 2:
-			char = new FlxSprite(200, 200).loadGraphic(Paths.image('bfDanceTitle'));
+			char = new FlxSprite(300, 220).loadGraphic(Paths.image('bfDanceTitle'));
 			char.frames = Paths.getSparrowAtlas('bfDanceTitle');
-			char.animation.addByPrefix('idleB', 'bfDanceTitle', 24, true);
+			char.animation.addByPrefix('idleB', 'bfDance0', 24, true);
 			char.animation.play('idleB');
 			char.setGraphicSize(Std.int(char.width * 0.8));
 			char.antialiasing = ClientPrefs.globalAntialiasing;
 			add(char);
               
 			case 3:
-			char = new FlxSprite(200, 200).loadGraphic(Paths.image('spookyDanceTitle'));
+			char = new FlxSprite(300, 220).loadGraphic(Paths.image('spookyDanceTitle'));
 			char.frames = Paths.getSparrowAtlas('spookyDanceTitle');
 			char.animation.addByPrefix('idleS', 'spooky dance idle0', 24, true);
 			char.animation.play('idleS');
