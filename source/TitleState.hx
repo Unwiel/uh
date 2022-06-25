@@ -265,8 +265,8 @@ class TitleState extends MusicBeatState
 		//add(bg);
 		
 		
-	    titlebg = new FlxSprite().loadGraphic(Paths.image('titleBG'));
-		titlebgbg.antialiasing = ClientPrefs.globalAntialiasing;
+	        titlebg = new FlxSprite().loadGraphic(Paths.image('titleBG'));
+		titlebg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(titlebg);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
