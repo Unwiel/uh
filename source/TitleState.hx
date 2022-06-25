@@ -325,7 +325,7 @@ class TitleState extends MusicBeatState
 		switch (FlxG.random.int(1, 3))
         {
             case 1:
-			char = new FlxSprite(400, 50).loadGraphic(Paths.image('gfDanceTitle'));//put your cords and image here
+			char = new FlxSprite(400, 30).loadGraphic(Paths.image('gfDanceTitle'));//put your cords and image here
 			char.frames = Paths.getSparrowAtlas('gfDanceTitle');//here put the name of the xml
 			char.animation.addByPrefix('idleR', 'gfDance0', 24, true);//on 'idle normal' change it to your xml one
 			char.animation.play('idleR');//you can rename the anim however you want to
@@ -334,7 +334,7 @@ class TitleState extends MusicBeatState
 			add(char);
 
             case 2:
-			char = new FlxSprite(600, 300).loadGraphic(Paths.image('bfDanceTitle'));
+			char = new FlxSprite(600, 200).loadGraphic(Paths.image('bfDanceTitle'));
 			char.frames = Paths.getSparrowAtlas('bfDanceTitle');
 			char.animation.addByPrefix('idleB', 'bfDance0', 24, true);
 			char.animation.play('idleB');
