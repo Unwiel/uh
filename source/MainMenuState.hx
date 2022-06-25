@@ -120,7 +120,7 @@ class MainMenuState extends MusicBeatState
 		gfbf.visible = false;
 		add(gfbf);
 		
-		bf = new FlxSprite(50, -50).loadGraphic(Paths.image('menuicons/options'));
+		bf = new FlxSprite(-50, 100).loadGraphic(Paths.image('menuicons/options'));
 	    bf.frames = Paths.getSparrowAtlas('menuicons/options');
 	    bf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    bf.animation.play('idleB');
@@ -129,19 +129,19 @@ class MainMenuState extends MusicBeatState
 		bf.visible = false;
 		add(bf);
 		
-		awards = new FlxSprite(50, -50).loadGraphic(Paths.image('menuicons/awards'));
+		awards = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/awards'));
 		awards.setGraphicSize(Std.int(awards.width * 0.8));
 		awards.antialiasing = ClientPrefs.globalAntialiasing;
 		awards.visible = false;
 		add(awards);
 		
-		credits = new FlxSprite(50, -50).loadGraphic(Paths.image('menuicons/credits'));
+		credits = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/credits'));
 		credits.setGraphicSize(Std.int(credits.width * 0.8));
 		credits.antialiasing = ClientPrefs.globalAntialiasing;
 		credits.visible = false;
 		add(credits);
 
-                honton = new FlxSprite(500, 300).loadGraphic(Paths.image('menuicons/donate'));
+                honton = new FlxSprite(-150, 300).loadGraphic(Paths.image('menuicons/donate'));
 	    honton.frames = Paths.getSparrowAtlas('menuicons/donate');
 	    honton.animation.addByPrefix('no', 'DONATE0', 24, false);
             honton.animation.addByPrefix('selected', 'DONATE SELECT0', 24, false); 
