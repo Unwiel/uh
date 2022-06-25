@@ -46,6 +46,7 @@ class MainMenuState extends MusicBeatState
 	var skid:FlxSprite;
 	var bf:FlxSprite;
 	var gfbf:FlxSprite;
+        var honton:FlxSprite;
 	var awards:FlxSprite;
 	var credits:FlxSprite;
 	var camFollow:FlxObject;
@@ -101,7 +102,7 @@ class MainMenuState extends MusicBeatState
 		cosa2.antialiasing = ClientPrefs.globalAntialiasing;
 		add(cosa2);
 		
-		skid = new FlxSprite(100, 50).loadGraphic(Paths.image('menuicons/story'));
+		skid = new FlxSprite(100, -100).loadGraphic(Paths.image('menuicons/story'));
 	    skid.frames = Paths.getSparrowAtlas('menuicons/story');
 	    skid.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    skid.animation.play('idleB');
@@ -110,7 +111,7 @@ class MainMenuState extends MusicBeatState
 		skid.visible = false;
 		add(skid);
 		
-		gfbf = new FlxSprite(-50, -50).loadGraphic(Paths.image('menuicons/freeplay'));
+		gfbf = new FlxSprite(-50, -150).loadGraphic(Paths.image('menuicons/freeplay'));
 	    gfbf.frames = Paths.getSparrowAtlas('menuicons/freeplay');
 	    gfbf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    gfbf.animation.play('idleB');
@@ -119,7 +120,7 @@ class MainMenuState extends MusicBeatState
 		gfbf.visible = false;
 		add(gfbf);
 		
-		bf = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/options'));
+		bf = new FlxSprite(50, -100).loadGraphic(Paths.image('menuicons/options'));
 	    bf.frames = Paths.getSparrowAtlas('menuicons/options');
 	    bf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    bf.animation.play('idleB');
@@ -128,17 +129,26 @@ class MainMenuState extends MusicBeatState
 		bf.visible = false;
 		add(bf);
 		
-		awards = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/awards'));
+		awards = new FlxSprite(50, -100).loadGraphic(Paths.image('menuicons/awards'));
 		awards.setGraphicSize(Std.int(awards.width * 0.8));
 		awards.antialiasing = ClientPrefs.globalAntialiasing;
 		awards.visible = false;
 		add(awards);
 		
-		credits = new FlxSprite(50, 50).loadGraphic(Paths.image('menuicons/credits'));
+		credits = new FlxSprite(50, -100).loadGraphic(Paths.image('menuicons/credits'));
 		credits.setGraphicSize(Std.int(credits.width * 0.8));
 		credits.antialiasing = ClientPrefs.globalAntialiasing;
 		credits.visible = false;
 		add(credits);
+
+                honton = new FlxSprite(250, 150).loadGraphic(Paths.image('menuicons/donate'));
+	    honton.frames = Paths.getSparrowAtlas('menuicons/donate');
+	    honton.animation.addByPrefix('no', 'DONATE0', 24, false);
+            honton.animation.addByPrefix('selected', 'DONATE SELECT0', 24, false); 
+	    honton.animation.play('no');
+		honton.setGraphicSize(Std.int(skid.width * 0.8));
+		honton.antialiasing = ClientPrefs.globalAntialiasing;
+		add(honton); 
 
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
@@ -223,6 +233,19 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
+
+                if (FlxG.mouse.overlaps(honton))
+		{
+                        honton.animation.play('selected');
+			if(FlxG.mouse.justPressed)
+			{
+                          FlxG.sound.play(Paths.sound('confirmMenu'));
+
+	                  CoolUtil.browserLoad('https://youtube.com/c/Honton129');
+                          
+                        } 
+
+                } 
 		
 		
 
