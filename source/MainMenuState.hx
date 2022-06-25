@@ -329,7 +329,72 @@ class MainMenuState extends MusicBeatState
 									spr.kill();
 								}
 							});
-						}
+
+                                                        FlxTween.tween(cosa1, {x: cosa1.x + 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn2:FlxTween)
+								{
+									FlxTween.tween(cosa1, {x: cosa1.x + 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
+                                                        FlxTween.tween(skid, {x: skid.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn3:FlxTween)
+								{
+									FlxTween.tween(skid, {x: skid.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
+                                                        
+                                                        FlxTween.tween(gfbf, {x: gfbf.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn4:FlxTween)
+								{
+									FlxTween.tween(gfbf, {x: gfbf.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							}); 
+
+b                                                       
+                                                        FlxTween.tween(bf, {x: bf.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn5:FlxTween)
+								{
+									FlxTween.tween(bf, {x: bf.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
+                                                        
+                                                        FlxTween.tween(credits, {x: credits.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn6:FlxTween)
+								{
+									FlxTween.tween(credits, {x: credits.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
+                                                        
+                                                        FlxTween.tween(awards, {x: awards.x - 50}, 0.8, {
+                                                                ease: FlxEase.quadOut,
+                                                                onComplete: function(twn7:FlxTween)
+								{
+									FlxTween.tween(awards, {x: awards.x - 900}, 0.4, {ease: FlxEase.quadInOut});
+		
+
+								}
+							});
+
+                                                }                                                     			}
 						else
 						{
 							FlxFlicker.flicker(spr, 1, 0.06, false, false, function(flick:FlxFlicker)
