@@ -101,7 +101,7 @@ class MainMenuState extends MusicBeatState
 		cosa2.antialiasing = ClientPrefs.globalAntialiasing;
 		add(cosa2);
 		
-		skid = new FlxSprite(100, -10).loadGraphic(Paths.image('menuicons/story'));
+		skid = new FlxSprite(100, 50).loadGraphic(Paths.image('menuicons/story'));
 	    skid.frames = Paths.getSparrowAtlas('menuicons/story');
 	    skid.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    skid.animation.play('idleB');
@@ -110,7 +110,7 @@ class MainMenuState extends MusicBeatState
 		skid.visible = false;
 		add(skid);
 		
-		gfbf = new FlxSprite(350, -50).loadGraphic(Paths.image('menuicons/freeplay'));
+		gfbf = new FlxSprite(100, -50).loadGraphic(Paths.image('menuicons/freeplay'));
 	    gfbf.frames = Paths.getSparrowAtlas('menuicons/freeplay');
 	    gfbf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    gfbf.animation.play('idleB');
@@ -119,7 +119,7 @@ class MainMenuState extends MusicBeatState
 		gfbf.visible = false;
 		add(gfbf);
 		
-		bf = new FlxSprite(400, 100).loadGraphic(Paths.image('menuicons/options'));
+		bf = new FlxSprite(180, 50).loadGraphic(Paths.image('menuicons/options'));
 	    bf.frames = Paths.getSparrowAtlas('menuicons/options');
 	    bf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    bf.animation.play('idleB');
@@ -128,13 +128,13 @@ class MainMenuState extends MusicBeatState
 		bf.visible = false;
 		add(bf);
 		
-		awards = new FlxSprite(300, 120).loadGraphic(Paths.image('menuicons/awards'));
+		awards = new FlxSprite(150, 50).loadGraphic(Paths.image('menuicons/awards'));
 		awards.setGraphicSize(Std.int(awards.width * 0.8));
 		awards.antialiasing = ClientPrefs.globalAntialiasing;
 		awards.visible = false;
 		add(awards);
 		
-		credits = new FlxSprite(250, 100).loadGraphic(Paths.image('menuicons/credits'));
+		credits = new FlxSprite(100, -50).loadGraphic(Paths.image('menuicons/credits'));
 		credits.setGraphicSize(Std.int(credits.width * 0.8));
 		credits.antialiasing = ClientPrefs.globalAntialiasing;
 		credits.visible = false;
@@ -151,19 +151,21 @@ class MainMenuState extends MusicBeatState
 		for (i in 0...optionShit.length)
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
-			var menuItem:FlxSprite = new FlxSprite(20, 150 - (i * 125));
+			var menuItem:FlxSprite = new FlxSprite(0, (i * 140)  + offset);
+			menuItem.scale.x = scale;
+			menuItem.scale.y = scale;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
 			menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.animation.play('idle');
-			menuItem.setGraphicSize(Std.int(menuItem.width * 0.8));
 			menuItem.ID = i;
-                        menuItem.x = 450;
+			menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
+			menuItem.scrollFactor.set(0, scr);
 			menuItem.antialiasing = ClientPrefs.globalAntialiasing;
-			//menuItem.setGraphicSize(Std.int(menuItem.width * 0.58));
+			menuItem.setGraphicSize(Std.int(menuItem.width * 0.8));
 			menuItem.updateHitbox();
 		}
 
@@ -368,6 +370,7 @@ class MainMenuState extends MusicBeatState
 		menuItems.forEach(function(spr:FlxSprite)
 		{
 			//spr.screenCenter(X);
+                        spr.x += 300;
 		});
 	}
 
