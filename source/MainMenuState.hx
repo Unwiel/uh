@@ -141,7 +141,7 @@ class MainMenuState extends MusicBeatState
 		credits.visible = false;
 		add(credits);
 
-                honton = new FlxSprite(250, 150).loadGraphic(Paths.image('menuicons/donate'));
+                honton = new FlxSprite(300, 250).loadGraphic(Paths.image('menuicons/donate'));
 	    honton.frames = Paths.getSparrowAtlas('menuicons/donate');
 	    honton.animation.addByPrefix('no', 'DONATE0', 24, false);
             honton.animation.addByPrefix('selected', 'DONATE SELECT0', 24, false); 
