@@ -166,7 +166,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-                var bsid:FlxText = new FlxText(12, FlxG.height - 4, 0, "BSIDES CORRUPTION DEMO v1.3.0", 12);
+                var bsid:FlxText = new FlxText(12, FlxG.height - 64, 0, "BSIDES CORRUPTION DEMO v1.3.0", 12);
 		bsid.scrollFactor.set();
 		bsid.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(bsid);
@@ -227,7 +227,7 @@ class MainMenuState extends MusicBeatState
 		
 		if (optionShit[curSelected] == 'story_mode') 
 		{
-		; 
+		
 		
 		    skid.visible = true;
 		} 
