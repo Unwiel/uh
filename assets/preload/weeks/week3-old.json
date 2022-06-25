@@ -1,0 +1,25 @@
+{
+	"storyName": "On My Way",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "week3",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Blammed",
+			"pico3-old",
+			[
+				34,
+				51,
+				88
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "Week 3 Old"
+}

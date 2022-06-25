@@ -1,0 +1,39 @@
+{
+	"song": {
+		"speed": 2.3,
+		"stage": null,
+		"player1": "bf",
+		"player2": "spooky",
+		"player3": null,
+		"events": [
+			[
+				85625.0000000001,
+				[
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				85714.2857142858,
+				[
+					[
+						"Change Character",
+						"1",
+						"spooky2"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 168,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Spookeez"
+	}
+}

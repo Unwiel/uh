@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pumpBop.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pumpBopping0000" x="0" y="0" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0001" x="0" y="0" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0002" x="2500" y="0" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0003" x="2500" y="0" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0004" x="0" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0005" x="0" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0006" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0007" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0008" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0009" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0010" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0011" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0012" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0013" x="2500" y="1400" width="2560" height="1400"/>
+	<SubTexture name="pumpBopping0014" x="2500" y="1400" width="2560" height="1400"/>
+        <SubTexture name="pumpBopping0015" x="2500" y="1400" width="2560" height="1400"/>
+</TextureAtlas>

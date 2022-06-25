@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bfDanceTitle.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bfDance0000" x="10" y="10" width="404" height="391" frameX="-1" frameY="-20" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0001" x="10" y="10" width="404" height="391" frameX="-1" frameY="-20" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0002" x="424" y="10" width="406" height="394" frameX="0" frameY="-18" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0003" x="424" y="10" width="406" height="394" frameX="0" frameY="-18" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0004" x="840" y="10" width="403" height="399" frameX="-3" frameY="-13" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0005" x="840" y="10" width="403" height="399" frameX="-3" frameY="-13" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0006" x="1253" y="10" width="405" height="411" frameX="-4" frameY="-1" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0007" x="1253" y="10" width="405" height="411" frameX="-4" frameY="-1" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0008" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0009" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0010" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0011" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0012" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+	<SubTexture name="bfDance0013" x="10" y="431" width="405" height="412" frameX="-4" frameY="0" frameWidth="409" frameHeight="412"/>
+</TextureAtlas>

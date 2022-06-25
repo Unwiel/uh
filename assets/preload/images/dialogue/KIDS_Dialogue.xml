@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="KIDS_Dialogue.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="none0000" x="10" y="10" width="0" height="0" frameX="-107374182" frameY="-107374182" frameWidth="0" frameHeight="0"/>
+	<SubTexture name="pump Talk0000" x="20" y="10" width="315" height="590"/>
+	<SubTexture name="pump Talk0001" x="20" y="10" width="315" height="590"/>
+	<SubTexture name="pump Talk0002" x="345" y="10" width="315" height="583" frameX="0" frameY="-7" frameWidth="315" frameHeight="590"/>
+	<SubTexture name="pump Talk0003" x="345" y="10" width="315" height="583" frameX="0" frameY="-7" frameWidth="315" frameHeight="590"/>
+	<SubTexture name="pump Talk0004" x="985" y="610" width="315" height="570" frameX="0" frameY="-20" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="pump Talk0005" x="985" y="610" width="315" height="570" frameX="0" frameY="-20" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="pump front talk0000" x="670" y="10" width="436" height="590"/>
+	<SubTexture name="pump front talk0001" x="670" y="10" width="436" height="590"/>
+	<SubTexture name="pump front talk0002" x="1116" y="10" width="436" height="585" frameX="0" frameY="-5" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="pump front talk0003" x="1116" y="10" width="436" height="585" frameX="0" frameY="-5" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="pump front talk0004" x="456" y="1219" width="436" height="576" frameX="0" frameY="-14" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="pump front talk0005" x="456" y="1219" width="436" height="576" frameX="0" frameY="-14" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="pump front talk end0000" x="1562" y="10" width="436" height="576"/>
+	<SubTexture name="pump talk end0000" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="pump talk end0001" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="pump talk end0002" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="pump talk end0003" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="pump talk end0004" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="pump talk end0005" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid Talk0000" x="335" y="610" width="315" height="599"/>
+	<SubTexture name="skid Talk0001" x="335" y="610" width="315" height="599"/>
+	<SubTexture name="skid Talk0002" x="660" y="610" width="315" height="588" frameX="0" frameY="-11" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="skid Talk0003" x="660" y="610" width="315" height="588" frameX="0" frameY="-11" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="skid Talk0004" x="985" y="610" width="315" height="570" frameX="0" frameY="-29" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="skid Talk0005" x="985" y="610" width="315" height="570" frameX="0" frameY="-29" frameWidth="315" frameHeight="599"/>
+	<SubTexture name="skid front talk0000" x="1310" y="610" width="436" height="590"/>
+	<SubTexture name="skid front talk0001" x="1310" y="610" width="436" height="590"/>
+	<SubTexture name="skid front talk0002" x="10" y="1219" width="436" height="585" frameX="0" frameY="-5" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="skid front talk0003" x="10" y="1219" width="436" height="585" frameX="0" frameY="-5" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="skid front talk0004" x="456" y="1219" width="436" height="576" frameX="0" frameY="-14" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="skid front talk0005" x="456" y="1219" width="436" height="576" frameX="0" frameY="-14" frameWidth="436" frameHeight="590"/>
+	<SubTexture name="skid front talk end0000" x="1562" y="10" width="436" height="576"/>
+	<SubTexture name="skid talk end0000" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid talk end0001" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid talk end0002" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid talk end0003" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid talk end0004" x="10" y="610" width="315" height="570"/>
+	<SubTexture name="skid talk end0005" x="10" y="610" width="315" height="570"/>
+</TextureAtlas>

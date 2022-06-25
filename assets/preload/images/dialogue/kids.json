@@ -1,0 +1,63 @@
+{
+	"position": [
+		221,
+		20
+	],
+	"dialogue_pos": "left",
+	"scale": 1.25,
+	"image": "KIDS_Dialogue",
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				34
+			],
+			"anim": "skid-talk",
+			"idle_offsets": [
+				0,
+				8
+			],
+			"loop_name": "skid Talk",
+			"idle_name": "skid talk end"
+		},
+		{
+			"loop_offsets": [
+				0,
+				110
+			],
+			"anim": "pump-talk",
+			"idle_offsets": [
+				0,
+				93
+			],
+			"loop_name": "pump Talk",
+			"idle_name": "pump talk end"
+		},
+		{
+			"idle_offsets": [
+				0,
+				10
+			],
+			"anim": "skidfront-talk",
+			"loop_offsets": [
+				0,
+				22
+			],
+			"idle_name": "pump front talk end",
+			"loop_name": "skid front talk"
+		},
+		{
+			"idle_offsets": [
+				0,
+				118
+			],
+			"anim": "pumpfront-talk",
+			"loop_offsets": [
+				0,
+				130
+			],
+			"idle_name": "pump front talk end",
+			"loop_name": "pump front talk"
+		}
+	]
+}

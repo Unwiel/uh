@@ -1,0 +1,124 @@
+{
+	"song": {
+		"speed": 2.7,
+		"stage": null,
+		"player1": "bf",
+		"player2": "pico",
+		"player3": null,
+		"events": [
+			[
+				47852.7607361963,
+				[
+					[
+						"Set Cam Zoom",
+						"1.25",
+						""
+					]
+				]
+			],
+			[
+				59631.9018404907,
+				[
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				83190.1840490797,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"pico1-5"
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				94990.0306748465,
+				[
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				130306.748466257,
+				[
+					[
+						"Set Cam Zoom",
+						"1.15",
+						""
+					],
+					[
+						"Camera Follow Pos",
+						"750",
+						"550"
+					],
+					[
+						"Set Cam Zoom",
+						"1.15",
+						""
+					]
+				]
+			],
+			[
+				142125,
+				[
+					[
+						"Camera Follow Pos",
+						"",
+						""
+					]
+				]
+			],
+			[
+				142269.938650307,
+				[
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				153890.337423313,
+				[
+					[
+						"Change Character",
+						"1",
+						"pico2"
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 163,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Pico"
+	}
+}

@@ -1,0 +1,37 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		0,
+		50
+	],
+	"scale": 1.25,
+	"animations": [
+		{
+			"anim": "talk",
+			"loop_offsets": [
+				0,
+				14
+			],
+			"idle_offsets": [
+				-1,
+				-2
+			],
+			"loop_name": "bftalkloop",
+			"idle_name": "BFTalk0"
+		},
+		{
+			"loop_offsets": [
+				30,
+				21
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				14,
+				6
+			],
+			"loop_name": "bftalkhandloop",
+			"idle_name": "BFTalk hand"
+		}
+	],
+	"image": "BF_Dialogue"
+}

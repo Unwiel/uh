@@ -1,0 +1,43 @@
+{
+	"storyName": "Scary Month",
+	"hideFreeplay": false,
+	"weekBackground": "halloween",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"spooky",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Spookeez",
+			"spooky",
+			[
+				34,
+				51,
+				128
+			]
+		],
+		[
+			"Sanguine-South",
+			"spooky2",
+			[
+				34,
+				51,
+				108
+			]
+		],
+		[
+			"Chiller",
+			"spooky3",
+			[
+				34,
+				51,
+				88
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 2"
+}

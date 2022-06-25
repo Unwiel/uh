@@ -1,0 +1,159 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": null,
+		"player1": "bf-glow",
+		"player2": "spooky2-glow",
+		"player3": null,
+		"events": [
+			[
+				20869.5652173913,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf"
+					],
+					[
+						"Change Character",
+						"1",
+						"spooky2"
+					],
+					[
+						"Change Character",
+						"2",
+						"gf"
+					],
+					[
+						"Add Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				62608.695652174,
+				[
+					[
+						"Change Character",
+						"2",
+						"gf-final-glow"
+					],
+					[
+						"Change Character",
+						"1",
+						"spooky2-5-glow"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf-final-glow"
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				67826.0869565218,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf-final"
+					]
+				]
+			],
+			[
+				67826.0869565218,
+				[
+					[
+						"Change Character",
+						"1",
+						"spooky2-5"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf-final"
+					],
+					[
+						"Change Character",
+						"2",
+						"gf-final"
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				67826.0869565218,
+				[
+					[
+						"Screen Shake",
+						"0.1, 0.1",
+						"16, 0.003"
+					]
+				]
+			],
+			[
+				83478.2608695653,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf-final-glow"
+					]
+				]
+			],
+			[
+				83478.2608695653,
+				[
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					],
+					[
+						"Change Character",
+						"2",
+						"gf-blank"
+					],
+					[
+						"Change Character",
+						"1",
+						"spooky2-5-glow"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf-final-glow"
+					]
+				]
+			],
+			[
+				95625.0000000001,
+				[
+					[
+						"Add Black End Flash",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf-glow",
+		"bpm": 184,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Sanguine-South"
+	}
+}

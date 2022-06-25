@@ -1,0 +1,259 @@
+{
+	"song": {
+		"speed": 2.6,
+		"stage": "philly-2",
+		"player1": "bf",
+		"player2": "pico2",
+		"player3": null,
+		"events": [
+			[
+				14117.6470588235,
+				[
+					[
+						"Set Cam Zoom",
+						"1.25",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				14438.5026737968,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				14759.3582887701,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				15080.2139037433,
+				[
+					[
+						"Add Camera Zoom",
+						"0.0001",
+						"0.03"
+					]
+				]
+			],
+			[
+				15401.0695187166,
+				[
+					[
+						"Add Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				66417.1122994652,
+				[
+					[
+						"Set Cam Zoom",
+						"1.15",
+						""
+					]
+				]
+			],
+			[
+				66737.9679144384,
+				[
+					[
+						"Change Character",
+						"0",
+						"bf-philly"
+					],
+					[
+						"Change Character",
+						"2",
+						"gf-philly"
+					],
+					[
+						"Change Character",
+						"1",
+						"pico2-5"
+					],
+					[
+						"Add Camera Flash",
+						"",
+						""
+					],
+					[
+						"Play Animation",
+						"shoot",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"1.30",
+						""
+					]
+				]
+			],
+			[
+				66818.1818181818,
+				[
+					[
+						"Play Animation",
+						"hit",
+						"bf"
+					]
+				]
+			],
+			[
+				87272.7272727271,
+				[
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				96256.6844919786,
+				[
+					[
+						"Set Cam Zoom",
+						"1.25",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"",
+						""
+					]
+				]
+			],
+			[
+				96577.5401069519,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				96898.3957219251,
+				[
+					[
+						"Add Camera Zoom",
+						"0.015",
+						"0.03"
+					]
+				]
+			],
+			[
+				97219.2513368984,
+				[
+					[
+						"Add Camera Zoom",
+						"0.0001",
+						"0.03"
+					]
+				]
+			],
+			[
+				97540.1069518717,
+				[
+					[
+						"Add Camera Flash",
+						"",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					]
+				]
+			],
+			[
+				107807.486631016,
+				[
+					[
+						"Set Cam Zoom",
+						"1.15",
+						""
+					]
+				]
+			],
+			[
+				128342.245989305,
+				[
+					[
+						"Change Character",
+						"2",
+						"gf-philly2"
+					],
+					[
+						"Change Character",
+						"0",
+						"bf-philly2"
+					],
+					[
+						"Change Character",
+						"1",
+						"pico2"
+					],
+					[
+						"Set Cam Zoom",
+						"1.05",
+						""
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			],
+			[
+				169411.764705882,
+				[
+					[
+						"Set Cam Zoom",
+						"1.15",
+						""
+					],
+					[
+						"Add Black Camera Flash",
+						"",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": null,
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 187,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Philly-Nice"
+	}
+}

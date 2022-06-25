@@ -1,0 +1,43 @@
+{
+	"storyName": "A Familiar Face...",
+	"hideFreeplay": false,
+	"weekBackground": "philly",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Pico",
+			"pico",
+			[
+				114,
+				91,
+				168
+			]
+		],
+		[
+			"Philly-Nice",
+			"pico2",
+			[
+				94,
+				71,
+				148
+			]
+		],
+		[
+			"Full-Clip",
+			"pico3",
+			[
+				74,
+				51,
+				128
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 3"
+}

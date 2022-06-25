@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="phillyBop.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="phillyBoppers0000" x="0" y="0" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0001" x="0" y="0" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0002" x="2620" y="0" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0003" x="2620" y="0" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0004" x="0" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0005" x="0" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0006" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0007" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0008" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0009" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0010" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0011" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0012" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0013" x="2620" y="1400" width="2560" height="1400"/>
+	<SubTexture name="phillyBoppers0014" x="2620" y="1400" width="2560" height="1400"/>
+        <SubTexture name="phillyBoppers0015" x="2620" y="1400" width="2560" height="1400"/>
+</TextureAtlas>
