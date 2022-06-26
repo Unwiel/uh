@@ -102,7 +102,7 @@ class MainMenuState extends MusicBeatState
 		cosa2.antialiasing = ClientPrefs.globalAntialiasing;
 		add(cosa2);
 		
-		skid = new FlxSprite(100, 150).loadGraphic(Paths.image('menuicons/story'));
+		skid = new FlxSprite(100, 50).loadGraphic(Paths.image('menuicons/story'));
 	    skid.frames = Paths.getSparrowAtlas('menuicons/story');
 	    skid.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    skid.animation.play('idleB');
