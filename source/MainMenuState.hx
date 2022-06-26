@@ -120,7 +120,7 @@ class MainMenuState extends MusicBeatState
 		gfbf.visible = false;
 		add(gfbf);
 		
-		bf = new FlxSprite(-50, 100).loadGraphic(Paths.image('menuicons/options'));
+		bf = new FlxSprite(-50, -50).loadGraphic(Paths.image('menuicons/options'));
 	    bf.frames = Paths.getSparrowAtlas('menuicons/options');
 	    bf.animation.addByPrefix('idleB', 'idle0', 24, true);
 	    bf.animation.play('idleB');
@@ -141,7 +141,7 @@ class MainMenuState extends MusicBeatState
 		credits.visible = false;
 		add(credits);
 
-                honton = new FlxSprite(150, 350).loadGraphic(Paths.image('menuicons/donate'));
+                honton = new FlxSprite(165, 350).loadGraphic(Paths.image('menuicons/donate'));
 	    honton.frames = Paths.getSparrowAtlas('menuicons/donate');
 	    honton.animation.addByPrefix('no', 'DONATE0', 24, false);
             honton.animation.addByPrefix('selected', 'DONATE SELECT0', 24, false); 
